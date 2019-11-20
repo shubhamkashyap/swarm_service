@@ -1,0 +1,12 @@
+--- 
+services: 
+  javaserver: 
+    build: 
+      context: "."
+    ports: 
+      - "8010:8080"
+    restart: always
+
+version: "3.7"
+volumes: 
+  container-volume:
